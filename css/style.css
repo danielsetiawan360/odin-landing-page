@@ -1,0 +1,202 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+strong {
+    font-size: 12px;
+}
+
+.container-bar {
+    display: flex;
+    color: #1F2937;
+    background-color: grey;
+    padding: 20px 80px;
+}
+
+.item-bar {
+    font-weight: bolder;
+    background-color: skyblue;
+    margin: 10px;   
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.pixel-cat {
+    height: auto;
+    width: 40px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.item-bar.home-button {
+    margin-left: auto;
+}
+
+.name {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.container-alpha {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-alpha-1 {
+    display: flex;
+    height: 320px;
+    color: white;
+    background-color: #1F2937;
+    padding: 80px 100px;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.welcome {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.welcome-desc {
+    text-align: justify;
+}
+
+.welcome-sign-up {
+    font-size: larger;
+    font-weight: bolder;
+    background-color: skyblue;
+    margin-top: 30px;
+    padding: 20px 100px;
+}
+
+.container-alpha-2 {
+    display: flex;
+    background-color: #1F2937;
+    padding: 80px 100px;
+    align-items: flex-start;
+}
+
+.white-cat {
+    height: auto;
+    width: 400px;
+    border: 5px solid grey;
+    border-radius: 30px;
+}
+
+
+.container-beta {
+    display: flex;
+    color: #1F2937;
+    background-color: white;
+    font-size: larger;
+    font-weight: bolder;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+.container-charlie {
+    display: flex;
+    justify-content: center;
+}
+
+.item-charlie {
+    height: auto;
+    width: 150px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: 5px solid #1F2937;
+}
+
+
+.container-delta {
+    display: flex;
+    color: #1F2937;
+    padding-top: 20px;
+    column-gap: 60px;
+}
+
+.item-delta {
+    font-size: small;
+    text-align: center;
+    width: 140px;
+}
+
+.item-delta.scottish-fold {
+    margin-left: 300px;
+}
+
+.item-delta.persian-cat {
+    margin-left: 18px;
+}
+
+.item-delta.sphynx-cat {
+    margin-left: 9px;
+}
+
+.item-delta.bengal-cat {
+    margin-left: 10px;
+}
+
+
+.container-echo {
+    display: flex;
+    color: #1F2937;
+    background-color: #e5e7eb;
+    margin-top: 40px;
+    padding: 50px 450px;
+    flex-direction: column;
+}
+
+.quotes {
+    font-size: 20px;
+}
+
+.author {
+    font-size: 15px;
+    font-weight: bolder;
+    align-self:  flex-end;
+}
+
+
+.container-foxtrot {
+    display: flex;
+    padding: 80px 200px;
+}
+
+.container-foxtrot-1 {
+    background-color: skyblue;
+    padding: 0px 70px;
+    flex-direction: column;
+}
+
+.encouragement-alpha {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.container-foxtrot-2 {
+    background-color: skyblue;
+    padding: 40px 70px;
+}
+
+.sign-up {
+    font-weight: bolder;
+    border: 5px solid #1F2937;
+    height: 70px;
+    width: 200px;
+}
+
+
+.container-gamma {
+    display: flex;
+    background-color: #1F2937;
+    height: 100px;
+}
